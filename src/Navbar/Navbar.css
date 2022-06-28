@@ -1,0 +1,29 @@
+nav {
+    height: 50px;
+    background: linear-gradient(45deg, rgb(156,14,156), midnightblue);
+}
+.liste {
+    list-style-type: none;
+    background: linear-gradient(45deg, rgb(156,14,156), midnightblue);
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+ul {
+    margin: 0;
+}
+.items {
+    margin-right: 80px;
+    color: white;
+    cursor: pointer;
+    font-size: 20px;
+}
+.items:hover {
+    text-decoration: underline;
+}
+.btnArt {
+    padding: 0.2em;
+    font-weight: bold;
+}
