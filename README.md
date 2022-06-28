@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# Démarrer avec le projet
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Retrouvez le projet en live ici : https://paulinemyriam.github.io/fullstack-js-andil/
 
 ## Available Scripts
 
