@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-//test git
+//test gitt
 //function Tabs() {//conversion du module Tabs en Class
 class Tabs extends React.Component {
   constructor(props) {
