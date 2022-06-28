@@ -1,18 +1,12 @@
-# Démarrer avec le projet
+# Démarrer avec le projet live
 
 Retrouvez le projet en live ici : https://paulinemyriam.github.io/fullstack-js-andil/
 
-## Available Scripts
+## Installation
 
-In the project directory, you can run:
-
-### `npm start`
-
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
-
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Commandes : 
+npm install
+npm start 
 
 ### `npm test`
 
