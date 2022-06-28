@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <Navbar />
         <h1>WikiAndil, la plateforme collaborative</h1>
-          <Tabs />
+          <Tabs title={'titre1'} content={'contenuuuuuuu'} category={'cat1'}/>
     </div>
   );
 }
