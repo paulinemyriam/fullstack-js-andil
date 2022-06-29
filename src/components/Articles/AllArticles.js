@@ -4,7 +4,6 @@ class AllArticles extends React.Component {
   render() {
     return (
         <div>
-            <Navbar />
 
             <div id="head-all-articles">
                 <h1>Tous les articles</h1>
