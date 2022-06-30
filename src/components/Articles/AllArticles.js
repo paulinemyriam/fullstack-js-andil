@@ -8,8 +8,8 @@ class AllArticles extends React.Component {
             <div id="head-all-articles">
                 <h1>Tous les articles</h1>
                 <form>
-                    <input type="text" placeholder="Rechercher un tag, un titre"/>
-                    <input type="submit" />
+                    <input type="search" placeholder="Tag, titre..."/>
+                    <input type="submit" value="Rechercher"/>
                 </form>
             </div>
 

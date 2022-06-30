@@ -8,7 +8,7 @@ export default function Navbar() {
 
             <ul className="liste">
                 <li className="items"><Link to="/fullstack-js-andil">Accueil</Link></li>
-                <li className="items"><Link to="/fullstack-js-andil">Catégories</Link></li>
+                <li className="items"><Link to="/fullstack-js-andil/categories">Catégories</Link></li>
                 <li className="items"><Link to="/fullstack-js-andil/articles">Articles</Link></li>
                 <button className="btnArt">✒️ Ecrire un article</button>
             </ul>

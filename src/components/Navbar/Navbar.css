@@ -16,11 +16,12 @@ ul {
 }
 .items {
     margin-right: 80px;
-    color: white;
-    cursor: pointer;
     font-size: 20px;
 }
-.items:hover {
+.items a {
+    color: white;
+}
+a:hover{
     text-decoration: underline;
 }
 .btnArt {

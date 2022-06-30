@@ -5,19 +5,20 @@ import Tabs from "./components/TabsHome/Tabs";
 import { Routes, Route } from "react-router-dom";
 import AllArticles from "./components/Articles/AllArticles";
 import Article from "./components/Articles/Article";
+import NewArticle from "./components/Articles/NewArticle";
+import Home from "./components/Home/Home";
 
 function App() {
   return (
     <div className="App">
-      <Navbar />
-      <h1>WikiAndil, la plateforme collaborative</h1>
-      <Tabs title={"titre1"} content={"contenuuuuuuu"} category={"cat1"} />
 
       <Routes>
+        <Route path="/fullstack-js-andil" element={<Home />} />
         <Route path="/fullstack-js-andil/articles" element={<AllArticles />} />
         <Route path="/fullstack-js-andil/articles/:id" element={<Article />} />
+        <Route path="/fullstack-js-andil/nouvel-article" element={<NewArticle />} />
       </Routes>
-      
+
     </div>
   );
 }
