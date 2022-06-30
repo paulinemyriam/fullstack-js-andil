@@ -146,6 +146,23 @@ button {
 #submitNewArt{
   width: 60%;
 }
+#listCategory {
+  padding: 0;
+}
+.categoryAll {
+  list-style-type: none;
+  background-color: midnightblue;
+  border-radius: 10px;
+  margin: 0.5em 2em;
+  padding: 0.5em;
+  font-size: 40px;
+  box-shadow: 1px 1px 10px #010101;
+  color: white;
+}
+.categoryAll:hover {
+  font-size: 42px;
+  cursor: pointer;
+}
 
 @keyframes App-logo-spin {
   from {
