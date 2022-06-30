@@ -1,29 +1,39 @@
 import React from "react";
-import clavier from './clavier.gif';
-import Navbar from '../Navbar/Navbar';
+import clavier from "./clavier.gif";
+import Navbar from "../Navbar/Navbar";
 
 class NewArticle extends React.Component {
   render() {
     return (
       <div>
         <Navbar />
-        <h1>Ecrire un nouvel article</h1>
 
-        <img src={clavier} />
+        <div id="newArticle">
+          <h1>Ecrire un nouvel article</h1>
 
-        <form method="POST" action="">
-          <input type="text" name="" placeholder="Titre" />
-          <input type="text" name="" placeholder="Votre article ici" />
-          <input type="file" accept="image/png, image/jpeg" />
-          <label>Choisir une catégorie de niveau</label>
-          <select name="category" id="category-select">
-            <option value="debutant">Débutant</option>
-            <option value="intermediaire">Intérmédiaire</option>
-            <option value="avance">Avancé</option>
-            <option value="expert">Expert</option>
-          </select>
-          <input type="submit" value="Publier"/>
-        </form>
+          <div id="box">
+            <div id="box-left">
+              <img src={clavier} />
+            </div>
+
+            <div id="box-right">
+              <form method="POST" action="" id="formArticle">
+                <input type="text" name="" placeholder="Titre" />
+                <input type="text" name="" placeholder="Votre article ici" id="article" />
+                <label>Illustrez votre article avec une image</label>
+                <input type="file" accept="image/png, image/jpeg" />
+                <label>Choisir une catégorie</label>
+                <select name="category" id="category-select">
+                  <option value="debutant">Débutant</option>
+                  <option value="intermediaire">Intérmédiaire</option>
+                  <option value="avance">Avancé</option>
+                  <option value="expert">Expert</option>
+                </select>
+                <input type="submit" value="Publier" id="submitNewArt"/>
+              </form>
+            </div>
+          </div>
+        </div>
       </div>
     );
   }

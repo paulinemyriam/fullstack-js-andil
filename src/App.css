@@ -118,6 +118,34 @@ button {
 .contenu {
   display: none;
 }
+#box {
+  display: flex;
+  justify-content: center;
+  width: 1200px;
+  background: #f1f1f1;
+  margin: 30px auto 0;
+  word-break: break-all;
+  border: 1px solid rgba(0, 0, 0, 0.274);
+  box-shadow: 0px 1px 10px grey;
+  padding: 2em;
+}
+#box-left {
+  padding-right: 1em;
+}
+#formArticle {
+  padding: 0 3em;
+}
+#formArticle input {
+  margin: 10px;
+  width: 100%;
+  font-size: 18px;
+}
+#article{
+  height: 200px;
+}
+#submitNewArt{
+  width: 60%;
+}
 
 @keyframes App-logo-spin {
   from {
