@@ -11,6 +11,15 @@ nav {
     align-items: center;
     position: relative;
 }
+a {
+    text-decoration: none;
+}
+button {
+    border-radius: 5px;
+}
+button a {
+    font-size: 16px;
+}
 ul {
     margin: 0;
 }

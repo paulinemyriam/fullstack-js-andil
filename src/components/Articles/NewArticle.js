@@ -1,10 +1,12 @@
-import { Component } from "react";
+import React from "react";
 import clavier from './clavier.gif';
+import Navbar from '../Navbar/Navbar';
 
-class NewArticle extends Component {
+class NewArticle extends React.Component {
   render() {
     return (
       <div>
+        <Navbar />
         <h1>Ecrire un nouvel article</h1>
 
         <img src={clavier} />
