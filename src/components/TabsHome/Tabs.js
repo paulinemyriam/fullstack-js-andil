@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 
-//test gittt
 //function Tabs() {//conversion du module Tabs en Class
 class Tabs extends React.Component {
   constructor(props) {

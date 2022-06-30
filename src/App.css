@@ -13,6 +13,10 @@ html {
   height: 40vmin;
   pointer-events: none;
 }
+h3{
+  text-transform: capitalize;
+  color: rgb(156,14,156);
+}
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -162,6 +166,22 @@ button {
 .categoryAll:hover {
   font-size: 42px;
   cursor: pointer;
+}
+#listeArticles {
+  list-style-type: none;
+  display: grid;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 3em;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0;
+}
+#listeArticles li {
+  box-shadow: 1px 1px 10px grey;
+  border-radius: 10px;
+  padding: 2em;
+  color: black;
+  margin: 1em;
 }
 
 @keyframes App-logo-spin {

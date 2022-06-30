@@ -1,6 +1,7 @@
 import React from 'react';
 import { useParams } from 'react-router-dom';
 import Navbar from '../Navbar/Navbar';
+import App from '../../App';
 
 export default function Article() {
 
@@ -10,7 +11,7 @@ export default function Article() {
     return (
         <div>
             <Navbar />
-            <h1>Votre article</h1>
+            <h1 id=''>Votre titre</h1>
         </div>
     )
 }
