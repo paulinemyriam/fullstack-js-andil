@@ -125,7 +125,7 @@ button {
 #box {
   display: flex;
   justify-content: center;
-  width: 1200px;
+  width: 90%;
   background: #f1f1f1;
   margin: 30px auto 0;
   word-break: break-all;
@@ -135,20 +135,40 @@ button {
 }
 #box-left {
   padding-right: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
+
 #formArticle {
-  padding: 0 3em;
+  padding: 0 5em;
 }
 #formArticle input {
   margin: 10px;
   width: 100%;
   font-size: 18px;
+
+}
+#titre, #article, #tags {
+  padding: 0.5em;
+  border-radius: 10px;
+  border: solid 1px purple;
 }
 #article{
   height: 200px;
 }
 #submitNewArt{
-  width: 60%;
+  background-color: purple;
+  color: white;
+  font-weight: bold;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 10px;
+  width: 105%!important;
+}
+#submitNewArt:hover{
+  box-shadow: 1px 1px 10px black;
+  cursor: pointer;
 }
 #listCategory {
   padding: 0;
@@ -181,7 +201,31 @@ button {
   border-radius: 10px;
   padding: 2em;
   color: black;
-  margin: 1em;
+  margin: 2em;
+}
+#tags-input-container {
+  border: solid 1px purple;
+  border-radius: 10px;
+  margin: 10px;
+  width: 103%;
+}
+.tags {
+  border: none;
+  background-color: #f1f1f1;
+  width: 80%!important;
+}
+.tag-item {
+  background-color: rgb(199, 163, 199);
+  display: inline-block;
+  padding: 0.2em;
+  border-radius: 20px;
+}
+.tag-item .close {
+  color: #010101;
+  font-weight: bolder;
+  border-radius: 50%;
+  margin-left: 5px;
+  cursor: pointer;
 }
 
 @keyframes App-logo-spin {

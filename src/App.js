@@ -32,8 +32,8 @@ function App() {
         <Route path="/fullstack-js-andil/categories" element={<Categorys />} />
         <Route path="/fullstack-js-andil/categories/:id" element={<Category />} />
         <Route path="/fullstack-js-andil/articles" element={<AllArticles data={data} />} />
-        <Route path="/fullstack-js-andil/articles/:id" element={<Article />} />
-        <Route path="/fullstack-js-andil/nouvel-article" element={<NewArticle />} />
+        <Route path="/fullstack-js-andil/articles/:id" element={<Article data={data}/>} />
+        <Route path="/fullstack-js-andil/nouvel-article" element={<NewArticle data={data}/>} />
       </Routes>
 
       <Fragment>
