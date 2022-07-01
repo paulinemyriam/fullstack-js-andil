@@ -4,12 +4,17 @@
 
 ### Télécharger le zip 
 ### Mettre le dossier 'backend' à la racine d'un nouveau dossier contenant les dossiers backend et evaluation
+### Dans le dossier evaluation, exécuter les commandes ci-dessous
 ### `npm install`
 ### `npm start`
+### Dans le dossier backend, exécuter les commandes ci-dessous
+### `npm install`
+### `npm cors`
+### `node mongo.js`
 #### Si problème de CORS, installer l'extension CORS Google : https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=fr
 
 
-## Voir le projet Front en live
+## Juste pour voir le front 
 
 Retrouvez le projet front en live ici : https://paulinemyriam.github.io/fullstack-js-andil/
 
@@ -17,16 +22,16 @@ Retrouvez le projet front en live ici : https://paulinemyriam.github.io/fullstac
 
 ### Présentation générale de l'API
 Elle a pour but de permettre une collaboration entre des utilisateurs en offrant la possibilité sur une plateforme générale de créer, consulter, modifier et supprimer des articles collaboratifs.
-Elle permet de retourner les informations suivantes : un article, son titre, son contenu, sa catégorie, ses tags, son illustration. 
+Elle permet de retourner les informations suivantes : un article, son titre, son contenu, sa catégorie, ses tags. 
 
 ### Les méthodes utilisées au sein de l'API
 L'API dispose de plusieurs méthodes : GET, POST, DELETE et PUT. 
 
-GET/all :
-POST/find : recherche par #tag ou par titre
-POST/articles : ajouter 
-DELETE/articles : supprimer
-PUT/articles : modification 
+- GET/all : retourne tout
+- POST/find : recherche par #tag ou par titre
+- POST/articles : ajouter un article 
+- DELETE/articles : supprimer un article via le titre
+- PUT/articles : modifier un article via le titre
 
 ## Fonctionnalités développées
 
