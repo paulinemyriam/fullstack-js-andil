@@ -36,6 +36,7 @@ function App() {
         <Route path="/fullstack-js-andil/nouvel-article" element={<NewArticle data={data}/>} />
       </Routes>
 
+    {/*
       <Fragment>
         <ul>
           {data.map(item =>(
@@ -46,6 +47,7 @@ function App() {
           ))}
         </ul>
       </Fragment>
+      */}
 
 
     </div>

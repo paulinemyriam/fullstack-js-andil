@@ -150,14 +150,21 @@ button {
 }
 #content {
   height: 300px;
+  width: 100%;
+}
+#article {
+  display: flex;
+  flex-direction: column;
+  margin: 1em 20em;
+  justify-content: center;
+}
+button:hover{
+  cursor: pointer;
 }
 #title, #content, #tags {
   padding: 0.5em;
   border-radius: 10px;
   border: solid 1px purple;
-}
-#article{
-  height: 200px;
 }
 #submitNewArt{
   background-color: purple;
