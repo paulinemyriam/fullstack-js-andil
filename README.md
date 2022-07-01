@@ -1,64 +1,33 @@
-# Démarrer avec le projet live
+# Voir le projet live
 
 Retrouvez le projet en live ici : https://paulinemyriam.github.io/fullstack-js-andil/
 
+## Contrat d'interface
+
+### Présentation générale de l'API
+Elle a pour but de permettre une collaboration entre des utilisateurs en offrant la possibilité sur une plateforme générale de créer, consulter, modifier et supprimer des articles collaboratifs.
+Elle permet de retourner les informations suivantes : un article, son titre, son contenu, sa catégorie, ses tags, son illustration. 
+
+### Les méthodes utilisées au sein de l'API
+L'API dispose de plusieurs méthodes : GET, POST, DELETE et PUT. 
+
+## Fonctionnalités développées
+
+### Front
+
+Plusieurs fonctionnalités ont été développées : 
+- La navigation entre les vues : permet d'aller sur la page d'accueil, les catégories, les articles ou la page pour ajouter un nouvel article 
+- La page d'accueil est composée d'un bloc de deux onglets : les catégories et les derniers articles. Le but aurait été à terme de présenter sur le premier onglet les catégories les plus populaires et sur le deuxième onglet les deux derniers articles publiés
+- La page catégories propose 4 boutons corresponsant aux 4 catégories. Au clic, cela nous renvoie vers les articles associés
+- La page articles nous montre tous les articles publiés et une barre de recherche. Au clic sur un article, cela nous renvoie vers l'article complet 
+- La page d'écriture d'un article est composé de plusieurs input pour la création d'articles : un titre, un contenu, des tags, l'ajout d'une image, le choix d'une catégorie
+
+### Back 
+
+où l'on pourra modifier, supprimer ou télécharger les versions précédentes de ce dernier. La barre de recherche, quant à elle, permet de faire une recherche en fonction des tag ou d'un titre
+
 ## Installation
 
-Commandes : 
-npm install
-npm start 
+### `npm install`
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
