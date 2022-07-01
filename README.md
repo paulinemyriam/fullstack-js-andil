@@ -3,6 +3,7 @@
 ## Installation
 
 ### Télécharger le zip 
+### Mettre le dossier 'backend' à la racine d'un nouveau dossier contenant les dossiers backend et evaluation
 ### `npm install`
 ### `npm start`
 #### Si problème de CORS, installer l'extension CORS Google : https://chrome.google.com/webstore/detail/allow-cors-access-control/lhobafahddgcelffkeicbaginigeejlf?hl=fr
