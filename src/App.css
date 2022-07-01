@@ -139,17 +139,19 @@ button {
   flex-direction: column;
   justify-content: center;
 }
-
 #formArticle {
   padding: 0 5em;
 }
 #formArticle input {
-  margin: 10px;
+  margin: 15px 10px;
   width: 100%;
   font-size: 18px;
-
+  border-radius: 10px;
 }
-#titre, #article, #tags {
+#content {
+  height: 300px;
+}
+#title, #content, #tags {
   padding: 0.5em;
   border-radius: 10px;
   border: solid 1px purple;
@@ -164,7 +166,8 @@ button {
   border: none;
   padding: 1em 2em;
   border-radius: 10px;
-  width: 105%!important;
+  width: 102%!important;
+  margin-top: 1em;
 }
 #submitNewArt:hover{
   box-shadow: 1px 1px 10px black;
@@ -204,10 +207,11 @@ button {
   margin: 2em;
 }
 #tags-input-container {
-  border: solid 1px purple;
   border-radius: 10px;
   margin: 10px;
-  width: 103%;
+  padding: 10px;
+  background: rgb(220, 220, 220);
+  width: 100%;
 }
 .tags {
   border: none;

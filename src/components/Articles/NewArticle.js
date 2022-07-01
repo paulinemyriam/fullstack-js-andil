@@ -1,6 +1,7 @@
 import React from "react";
 import clavier from "./clavier.gif";
 import Navbar from "../Navbar/Navbar";
+import "../../App.css";
 
 class NewArticle extends React.Component {
     
@@ -27,7 +28,7 @@ class NewArticle extends React.Component {
     }
   }
   
-  handleSubmit(event) {//envoi url en argu "articles" ou "find"
+  handleSubmit(event) {//envoi url en argument "articles" ou "find"
     event.preventDefault();
 
     if(window.confirm('voulez vous envoyer votre article ?')){
@@ -51,7 +52,7 @@ class NewArticle extends React.Component {
       .catch(err => err);
     }
     else{
-      console.log('relou le type')
+      console.log('erreur')
     }
     
   }    
@@ -71,7 +72,7 @@ class NewArticle extends React.Component {
                   </div>
           
                   <div id="box-right">
-                      <form onSubmit={this.handleSubmit}>
+                      <form onSubmit={this.handleSubmit} id="formArticle">
                           <input type="text" id='title' placeholder="Titre" value={this.state.title} onChange={this.handleChange} />
                           
                           <input type="text" id='content' placeholder="Votre article" value={this.state.content} onChange={this.handleChange} />
@@ -84,7 +85,7 @@ class NewArticle extends React.Component {
                               </div>
                               ))}
                               <div className="tag-item">
-                              <span className="text">Appuyer sur 'ESPACE' pour ajouter un tag</span>
+                              <span className="text">Tag + espace pour ajouter</span>
                               <span className="close">x</span>
                               </div>
                               <input
@@ -107,7 +108,7 @@ class NewArticle extends React.Component {
                                   <option value="avance">Avancé</option>
                                   <option value="expert">Expert</option>
                               </select>
-                          <input type="submit" value="Publier" />
+                          <input type="submit" value="Publier" id="submitNewArt" />
                       </form>
                   </div>
               </div>
